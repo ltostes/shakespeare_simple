@@ -165,4 +165,4 @@ def reset_rounds():
 
 # run the application
 if __name__ == "__main__":
-    Flask.run(app,host= '0.0.0.0',debug=True)
+    Flask.run(app,host= '0.0.0.0',threaded=False,debug=True)
