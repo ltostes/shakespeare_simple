@@ -7,17 +7,17 @@ import os
 import copy
 
 PLAYER_STANDARD_COLORS    = {
-                                'Purple' : {'background_color' : '#8749b3', 'text_color' : '#ffffff'},
                                 'Pink'   : {'background_color' : '#ff4d4d', 'text_color' : '#ffffff'},
-                                'Yellow' : {'background_color' : '#ffa600', 'text_color' : '#ffffff'},
                                 'Blue'   : {'background_color' : '#1732ff', 'text_color' : '#ffffff'},
-                                'Orange' : {'background_color' : '#ff4400', 'text_color' : '#ffffff'},
-                                'Red'    : {'background_color' : '#eb1f10', 'text_color' : '#ffffff'},
-                                'Brown'  : {'background_color' : '#452302', 'text_color' : '#ffffff'},
                                 'Green'  : {'background_color' : '#098a00', 'text_color' : '#ffffff'},
-                                'Gray'   : {'background_color' : '#adadad', 'text_color' : '#ffffff'},
+                                'Yellow' : {'background_color' : '#ffa600', 'text_color' : '#ffffff'},
+                                'Orange' : {'background_color' : '#ff4400', 'text_color' : '#ffffff'},
+                                'Brown'  : {'background_color' : '#452302', 'text_color' : '#ffffff'},
                                 'Black'  : {'background_color' : '#000000', 'text_color' : '#ffffff'},
-                                'White'  : {'background_color' : '#ffffff', 'text_color' : '#000000'}
+                                'White'  : {'background_color' : '#ffffff', 'text_color' : '#000000'},
+                                'Red'    : {'background_color' : '#eb1f10', 'text_color' : '#ffffff'},
+                                'Purple' : {'background_color' : '#8749b3', 'text_color' : '#ffffff'},
+                                'Gray'   : {'background_color' : '#adadad', 'text_color' : '#ffffff'},
 }
 
 PLAYER_COLORS = ['Purple', 'Pink', 'Yellow', 'Blue', 'Orange', 'Red', 'Brown', 'Green', 'Gray', 'Black', 'White']
