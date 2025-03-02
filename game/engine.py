@@ -20,7 +20,19 @@ PLAYER_STANDARD_COLORS    = {
                                 'Gray'   : {'background_color' : '#adadad', 'text_color' : '#ffffff'},
 }
 
-PLAYER_COLORS = ['Purple', 'Pink', 'Yellow', 'Blue', 'Orange', 'Red', 'Brown', 'Green', 'Gray', 'Black', 'White']
+PLAYER_COLORS = [
+                    'Pink',
+                    'Blue',
+                    'Green',
+                    'Yellow',
+                    'Orange',
+                    'Brown', 
+                    'Black', 
+                    'White', 
+                    'Red', 
+                    'Purple', 
+                    'Gray'
+                ]
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 DICTIONARIES_ROOT = os.path.join(APP_ROOT, '..', 'dictionaries')
